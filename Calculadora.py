@@ -11,6 +11,9 @@ if opr == "+":
 elif opr == "*":
     print("O resultado é:", num1 * num2)
 elif opr == "/":
-    print("O resultado é:", num1 / num2)
+    if num2 == 0:
+        print("Operação inválida")
+    else:
+        print("O resultado é:", num1 / num2)
 elif opr == "-":
     print("O resultado é:", num1 - num2)
